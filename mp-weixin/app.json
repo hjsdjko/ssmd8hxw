@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/xiaoyou/list",
+    "pages/xiaoyou/add-or-update",
+    "pages/xiaoyou/detail",
+    "pages/paotuiyuan/list",
+    "pages/paotuiyuan/add-or-update",
+    "pages/paotuiyuan/detail",
+    "pages/xiaoyoudongtai/list",
+    "pages/xiaoyoudongtai/add-or-update",
+    "pages/xiaoyoudongtai/detail",
+    "pages/faburenwu/list",
+    "pages/faburenwu/add-or-update",
+    "pages/faburenwu/detail",
+    "pages/renwudingdan/list",
+    "pages/renwudingdan/add-or-update",
+    "pages/renwudingdan/detail",
+    "pages/xiaoxizhongxin/list",
+    "pages/xiaoxizhongxin/add-or-update",
+    "pages/xiaoxizhongxin/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信小程序跑腿",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xiaoyoudongtai/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "校友动态"
+      },
+      {
+        "pagePath": "pages/faburenwu/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "发布任务"
+      },
+      {
+        "pagePath": "pages/renwudingdan/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "任务订单"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
